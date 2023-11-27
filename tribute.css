@@ -1,0 +1,70 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    background-color: rgb(218, 200, 218);
+    margin:0; padding:0;
+}
+h2{
+    font-weight: 500;
+    font-size:30px;
+    color:rgb(156, 3, 170);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:2px; padding-left:2px;
+}
+.container{
+    height:max-content; width:95%;
+    padding:5px; margin:3px;
+    display: inline-block;
+}
+#image5{
+    width:100%; height:400px;
+}
+#image1{
+    width:390px; height:320px;
+}
+#image2{
+    width:380px; height:310px;
+}
+#image4{
+    width:380px; height:320px;
+}
+#image1, #image2,#image4{
+    box-shadow: 3px 3px 13px 2px grey;
+    border-top-left-radius:35px ;
+    border-bottom-right-radius:35px ;
+}
+#about{
+    width:1300px; height:300px;
+    padding-left:20px;
+    padding-right: 20px;
+    text-align: justify;
+    word-spacing: 3px;
+}
+li:hover{
+    border-bottom: solid 3px #eee;
+    color:rgb(161, 41, 157);
+}
+p:hover{
+    border-bottom: solid 3px #eee;
+    color:rgb(161, 41, 157);
+}
+#achievements{
+    width:900px; height:400px;
+    padding-left:20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+#philanthropy{
+    width:900px; height:300px;
+    padding-left:20px;
+    padding-right: 20px;
+    margin-top:0;
+    text-align: justify;
+}
+#awards{
+    width:900px; height:250px;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
